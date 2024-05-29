@@ -9,7 +9,7 @@ const ImageCard = () => {
   };
 
   return (
-    <div className=" flex flex-col mx-auto gap-2  w-full ">
+    <div className="flex flex-col hidden md:block mx-auto gap-2  w-full ">
       <div className="w-full shadow-2xl rounded-lg">
         <img
           src="/assets/download.png"

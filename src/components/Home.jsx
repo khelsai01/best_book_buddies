@@ -3,6 +3,7 @@ import Navbar from './Navbar'
 import Header1 from './Header1'
 import MiddleCard from './MiddleCard'
 import KeyFeatures from './KeyFeatures'
+import Beautiful from './Beautiful'
 
 
 
@@ -13,6 +14,7 @@ const Home = () => {
       <Header1 />
       <MiddleCard />
       <KeyFeatures />
+      <Beautiful />
     </div>
   )
 }

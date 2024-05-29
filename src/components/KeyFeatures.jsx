@@ -2,13 +2,13 @@ import React from "react";
 
 const KeyFeatures = () => {
   return (
-    <div className="maxW-full p-10 ">
-      <div className="w-[85%] flex flex-col mx-auto justify-start shadow-lg px-6 py-36">
+    <div className="maxW-full p-0 sm:p-10 ">
+      <div className="w-[100%] sm:w-[85%] flex flex-col mx-auto justify-start shadow-lg px-6 py-36">
         <div className="flex flex-col items-start gap-6 ml-4">
           <button className="bg-black text-white rounded-full p-2 px-4 left-0">
             Key Features
           </button>
-          <h1 className="text-4xl font-semibold text-start">
+          <h1 className="text-xl sm:text-2xl md:text-4xl font-semibold text-start">
             Why use Atomize React?
           </h1>
           <p className="text-gray-500 text-[14px] text-start flex flex-col text-lg  ">
@@ -17,8 +17,7 @@ const KeyFeatures = () => {
           </p>
         </div>
         <div
-          className="grid grid-cols-1
-       md:grid-cols-4 ml-4  mt-10 gap-4 mx-auto place-items-center"
+          className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 ml-4  mt-10 gap-4 mx-auto place-items-center"
         >
           <div className="flex flex-col items-start gap-8 shadow-lg rounded-lg p-4">
             <svg

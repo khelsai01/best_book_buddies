@@ -5,41 +5,9 @@ import { FiMessageSquare } from "react-icons/fi";
 const CardOne = () => {
   return (
     <div className="maxW-full bg-slate-200 my-10 py-10">
-      <div className="w-[70%] grid grid-cols-3 lg:grid-cols-3 mx-auto gap-2">
+      <div className="w-[100%] sm:w-[70%] grid grid-cols-3 lg:grid-cols-3 mx-auto gap-2">
         <div className="flex flex-col mx-auto gap-4 p-4 rounded-lg">
           <div className="flex justify-between items-center mx-auto gap-3 w-full p-4">
-            {/*   <img
-              src="/assets/heart.svg"
-              alt="Heart"
-              className="w-10 h-10 p-2 rounded-full bg-white shadow-xl border-2 hover:scale-125 duration-500"
-            />
-          <img
-              src="/assets/eye.svg"
-              alt="Eye"
-              className="w-10 h-10 p-2 rounded-full bg-white shadow-xl border-2 hover:scale-125 duration-500"
-            /> 
-            
-            <img
-              src="/assets/tag.svg"
-              alt="Tag"
-              className="w-10 h-10 p-2 rounded-full bg-white shadow-xl border-2 hover:scale-125 duration-500"
-            />
-            <img
-              src="/assets/link.svg"
-              alt="Link"
-              className="w-10 h-10 p-2 rounded-full bg-white shadow-xl border-2 hover:scale-125 duration-500"
-            />
-            <img
-              src="/assets/play.svg"
-              alt="Play"
-              className="w-10 h-10 p-2 rounded-full bg-white shadow-xl border-2 hover:scale-125 duration-500"
-            />
-            <img
-              src="/assets/download.svg"
-              alt="Download"
-              className="w-10 h-10 p-2 rounded-full bg-white shadow-xl border-2 hover:scale-125 duration-500"
-            />
-            */}
             <div >
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="ae c0 ds dt du w-10 h-10 p-2 rounded-full bg-white shadow-xl border-2 hover:scale-125 duration-500">
     <path fill="#F4541D" fill-rule="evenodd" d="M20.4578131,5.54218691 C19.4708558,4.55476617 18.1319762,4 16.73588,4 C15.3397838,4 14.0009043,4.55476617 13.0139469,5.54218691 L11.9997441,6.55638976 L10.9855413,5.54218691 C8.92997437,3.48662009 5.59724201,3.48662011 3.54167516,5.54218697 C1.4861083,7.59775382 1.48610828,10.9304862 3.5416751,12.9860531 L4.55587795,14.0002559 L11.993314,20.2446014 C11.9970324,20.2477233 12.0024558,20.2477233 12.0061741,20.2446014 L19.4436102,14.0002559 L20.4578131,12.9860531 C21.4452338,11.9990957 22,10.6602162 22,9.26411999 C22,7.86802382 21.4452338,6.52914425 20.4578131,5.54218691 Z"/>
