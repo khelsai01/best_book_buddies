@@ -4,7 +4,7 @@ import { FiMessageSquare } from "react-icons/fi";
 
 const MeaganCard = () => {
   return (
-      <div className="w-full flex flex-col mx-auto gap-2  sm:shadow-lg  bg-white  py-10 rounded-lg ">
+      <div className="w-full flex flex-col mx-auto gap-2  sm:shadow-lg  bg-white  py-10 rounded-lg mt-10 ">
             <img
               src="/assets/avatar.png"
               alt="meafan fisher"

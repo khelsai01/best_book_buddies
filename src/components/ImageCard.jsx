@@ -34,7 +34,7 @@ const ImageCard = () => {
           </div>
         </div>
       </div>
-      <div className="shadow-lg mt-3 p-6 rounded-lg">
+      <div className="shadow-lg mt-6 p-6 rounded-lg">
         <div className="flex justify-between">
           <div className="flex gap-3">
             <img
