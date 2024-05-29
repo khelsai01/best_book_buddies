@@ -1,7 +1,10 @@
 import React from 'react'
 import Navbar from './Navbar'
 import Header1 from './Header1'
-import CardOne from './CardOne'
+import MiddleCard from './MiddleCard'
+import KeyFeatures from './KeyFeatures'
+import Beautiful from './Beautiful'
+
 
 
 const Home = () => {
@@ -9,7 +12,9 @@ const Home = () => {
     <div className='font-[Poppins]'>
       <Navbar />
       <Header1 />
-      <CardOne />
+      <MiddleCard />
+      <KeyFeatures />
+      <Beautiful />
     </div>
   )
 }
