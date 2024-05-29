@@ -3,23 +3,21 @@ import React from "react";
 const KeyFeatures = () => {
   return (
     <div className="maxW-full p-0 sm:p-10 ">
-      <div className="w-[100%] sm:w-[85%] flex flex-col mx-auto justify-start shadow-lg px-6 py-36">
-        <div className="flex flex-col items-start gap-6 ml-4">
+      <div className="w-[100%] sm:w-[85%] flex flex-col mx-auto justify-start md:shadow-lg px-16 py-36">
+        <div className="flex flex-col items-start gap-6 px-4">
           <button className="bg-black text-white rounded-full p-2 px-4 left-0">
             Key Features
           </button>
           <h1 className="text-xl sm:text-2xl md:text-4xl font-semibold text-start">
             Why use Atomize React?
           </h1>
-          <p className="text-gray-500 text-[14px] text-start flex flex-col text-lg  ">
+          <p className="text-gray-500 text-[14px] text-start md:flex md:flex-col text-lg  ">
             Atomize Reaft helps you in building fully responsive websites
             <span> and products that match your style.</span>
           </p>
         </div>
-        <div
-          className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 ml-4  mt-10 gap-4 mx-auto place-items-center"
-        >
-          <div className="flex flex-col items-start gap-8 shadow-lg rounded-lg p-4">
+        <div className="w-full  grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 ml-4  mt-10 gap-4 mx-auto place-items-center">
+          <div className="flex flex-col items-start gap-6 sm:shadow-lg rounded-lg p-4 ">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="32"
@@ -46,13 +44,13 @@ const KeyFeatures = () => {
 
             <button className="text-sky-600">See How</button>
           </div>
-          <div className="flex flex-col items-start gap-8 shadow-lg rounded-lg p-4">
+          <div className="flex flex-col items-start gap-6  sm:shadow-lg rounded-lg p-4">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="32"
               height="32"
               viewBox="0 0 32 32"
-               className="my-4"
+              className="my-4"
             >
               <g fill="none" fill-rule="evenodd">
                 <rect width="32" height="32" fill="#FF6B38" rx="3" />
@@ -72,13 +70,13 @@ const KeyFeatures = () => {
 
             <button className="text-sky-600">See How</button>
           </div>
-          <div className="flex flex-col items-start gap-8 shadow-lg rounded-lg p-4">
+          <div className="flex flex-col items-start gap-6  sm:shadow-lg rounded-lg p-4">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="32"
               height="32"
               viewBox="0 0 32 32"
-               className="my-4"
+              className="my-4"
             >
               <g fill="none" fill-rule="evenodd">
                 <rect width="32" height="32" fill="#1CDB9E" rx="3" />
@@ -110,13 +108,13 @@ const KeyFeatures = () => {
 
             <button className="text-sky-600">See How</button>
           </div>
-          <div className="flex flex-col items-start gap-8 shadow-lg rounded-lg p-4">
+          <div className="flex flex-col items-start gap-6  sm:shadow-lg rounded-lg p-4">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="32"
               height="32"
               viewBox="0 0 32 32"
-               className="my-4"
+              className="my-4"
             >
               <g fill="none" fill-rule="evenodd">
                 <rect
@@ -141,7 +139,7 @@ const KeyFeatures = () => {
             <div className="flex flex-col items-start">
               <h2 className="text-xl font-semibold my-4">Responsive</h2>
               <p className="text-gray-500 text-start  ">
-               Better control to make the app responsive.
+                Better control to make the app responsive app.
               </p>
             </div>
 

@@ -9,32 +9,32 @@ const ImageCard = () => {
   };
 
   return (
-    <div className="flex flex-col hidden md:block mx-auto gap-2  w-full ">
-      <div className="w-full shadow-2xl rounded-lg">
+    <div className="flex-col hidden md:block mx-auto gap-2  w-full ">
+      <div className="w-full shadow-xl rounded-lg">
         <img
           src="/assets/download.png"
           alt="meafan fisher"
           className="m-auto object-cover rounded-t-lg"
         />
-        <div className="flex justify-between p-4">
+        <div className="flex justify-between p-4 my-3">
           <div className="flex gap-2">
             <img
               src="/assets/avatar2.png"
               alt="Meagan Fisher"
               className="w-10 h-10 rounded-full"
             />
-            <h1 className="text-md font-semibold m-auto">Meagan Fisher</h1>
+            <h1 className="text-sm font-semibold m-auto">Meagan Fisher</h1>
           </div>
-          <div onClick={handleLike} className="cursor-pointer">
+          <div onClick={handleLike} className="cursor-pointer mt-3">
             {liked ? (
               <FaHeart className="text-2xl text-red-600 m-auto" />
             ) : (
-              <FaRegHeart className="text-2xl text-gray-600 m-auto" />
+              <FaRegHeart className="text-xl text-gray-600 m-auto " />
             )}
           </div>
         </div>
       </div>
-      <div className="shadow-2xl mt-3 p-6 rounded-lg">
+      <div className="shadow-lg mt-3 p-6 rounded-lg">
         <div className="flex justify-between">
           <div className="flex gap-3">
             <img
