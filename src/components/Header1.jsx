@@ -9,7 +9,7 @@ const Header1 = () => {
               <p className='text-md md:text-lg text-center p-6'>Atomize React is a Ui framework that helps developers collaborate with designers and build consistent user interface effortlessly.</p>
           </div>
           <div className='sm:mt-6 gap-5 flex flex-col md:flex-row'>
-              <button className='bg-sky-500 p-3 px-8 text-white rounded-lg hover:bg-sky-400 text-center'>Get Started Now</button>
+              <button className='bg-sky-500 p-3 px-8 text-white rounded-lg hover:bg-sky-400 text-center '>Get Started Now</button>
 
               <button className=' group p-3 px-5 text-gray-600 border-2 rounded-lg text-center flex gap-2 mx-auto' ><IoIosPlay className='text-2xl cursor-pointer group-hover:text-sky-600' /><span>Watch video</span></button>
 
