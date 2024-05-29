@@ -2,13 +2,11 @@ import React from "react";
 
 const LoginCard = () => {
   return (
-    <div className="flex flex-col mx-auto gap-10   w-full shadow-2xl rounded-lg py-10 sm:py-0">
+    <div className="flex flex-col mx-auto gap-10   maxW-full sm:shadow-lg rounded-xl">
       <div className="mt-10">
-        <h1 className="text-2xl font-semibold text-center ">
-          Login into your account
-        </h1>
-        <p className="text-gray-400 text-center text-[12px] m-auto mt-2">
-          Don't have an account yet?{" "}
+        <h1 className="text-2xl text-center ">Login into your account</h1>
+        <p className="text-gray-400 text-center text-[10px] m-auto mt-2">
+          Don't have an account yet?
           <span className="text-sky-500 cursor-pointer mx-1">Create New</span>
         </p>
       </div>
@@ -16,7 +14,7 @@ const LoginCard = () => {
         <div className="flex ">
           <input
             type="email"
-            placeholder="jogndoe@gmail.com"
+            placeholder="johndoe@gmail.com"
             className="rounded-full p-2 w-full px-4 border-2 "
           />
           <svg
@@ -31,7 +29,7 @@ const LoginCard = () => {
             />
           </svg>
         </div>
-        <div className="flex my-4">
+        <div className="flex">
           <input
             type="text"
             placeholder="Password"
@@ -50,8 +48,10 @@ const LoginCard = () => {
           </svg>
         </div>
       </div>
-          <div>
-              <button className="text-sky-500 text-center w-[90%] p-2 bg-gray-300 rounded-full font-mono">Login</button>
+      <div className="w-full m-auto ml-4 ">
+        <button className="text-sky-500 text-center w-[90%] p-2 bg-gray-300 rounded-full font-mono">
+          Login
+        </button>
       </div>
     </div>
   );
