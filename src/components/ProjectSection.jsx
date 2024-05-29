@@ -4,7 +4,7 @@ const ProjectSection = () => {
   return (
       <div className='maxW-full my-24'>
           <div className='w-[100%] sm:w-[85%] m-auto my-24'>
-              <h1 className='text-2xl sm:text-3xl md:text-4xl text-center'>Code the perfect design for each project using Atomize.</h1>
+              <h1 className='text-2xl sm:text-3xl md:text-5xl text-center font-semibold'>Code the perfect design for each project using Atomize.</h1>
       </div>
           <div className='w-[100%] sm:[85%] flex flex-col sm:flex-row'>
               <div className='basis-[85%] m-auto'>

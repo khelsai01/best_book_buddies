@@ -6,7 +6,7 @@ const ToolComponent = () => {
     <div className="maxW-full mt-44">
       <div className=" w-[100%] sm:[85%] flex flex-col  sm:shadow-md ">
         <div className="w-[85%]  mx-auto ">
-          <h1 className="text-2xl md:text-5xl   text-center">
+          <h1 className="text-2xl md:text-5xl font-semibold  text-center">
             A combinationof tools to design and develop modern application at
             ease.
           </h1>
