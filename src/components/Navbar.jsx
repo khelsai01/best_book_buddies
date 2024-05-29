@@ -15,8 +15,8 @@ const Navbar = () => {
             <nav className="flex justify-between items-center w-[100%] mx-auto p-3  shadow-md ">
                     <div>
                         <img
-                            className="w-44 px-2 lg:mx-10  cursor-pointer bg-slate-300"
-                            src="https://bestbookbuddies.com/theme/default/img/logo.png"
+                            className="w-44 px-2 lg:mx-10  cursor-pointer"
+                            src="/assets/logo.svg"
                             alt="Logo"
                         />
                     </div>
