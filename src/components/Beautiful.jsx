@@ -45,7 +45,7 @@ const Beautiful = () => {
             </div>
 
             <button className="absolute right-0 bottom-12 bg-sky-500  rounded-lg flex justify-center items-center text-white p-2 px-3 ">
-              Sign Up{" "}
+              Sign Up
             </button>
 
             <IoCheckboxSharp className="w-8 h-8 absolute left-0 bottom-20 text-orange-500  flex justify-center items-center cursor-pointer" />
@@ -53,9 +53,9 @@ const Beautiful = () => {
         </div>
         <div className="w-full sm:basis-[70%]">
           <div>
-            <h1 className="text-4xl text-start  font-semibold text-gray-800">
-              Beautiful & consistant UI Powered with{" "}
-              <span className="text-sky-400">React</span>.
+            <h1 className="text-5xl text-start  font-semibold text-gray-800">
+              Beautiful & consistant UI Powered with
+              <span className="text-sky-400 ml-4">React</span>.
             </h1>
           </div>
           <div className="grid grid-cols-2 lg:grid-cols-3 gap-4">
