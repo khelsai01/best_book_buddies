@@ -8,7 +8,7 @@ const Header1 = () => {
         <h1 className="text-2xl sm:text-4xl font-medium my-6 ">
           Design System for React JS
         </h1>
-        <p className="text-md md:text-lg  p-6 w-full mx-auto">
+        <p className="text-md md:text-lg  p-6 w-full sm:w-[85%] mx-auto">
           Atomize React is a Ui framework that helps developers collaborate with
           designers and build consistent user interface effortlessly.
         </p>
