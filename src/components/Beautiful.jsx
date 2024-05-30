@@ -5,8 +5,8 @@ import { IoCheckboxSharp } from "react-icons/io5";
 const Beautiful = () => {
   return (
     <div className="maxW-full my-24 ">
-      <div className="w-[100%] sm:w-[85%] flex flex-col sm:flex-row justify-center gap-8 mx-auto p-4 sm:p-8">
-        <div className="hidden sm:block ">
+      <div className="w-[100%] sm:w-[90%] flex flex-col sm:flex-row justify-center gap-8 mx-auto p-4 sm:p-8">
+        <div className="hidden md:block sm:m-auto md:m-0 ">
           <div className="relative w-[350px] h-[350px] border-2 rounded-full flex justify-center items-center">
             <div className="relative w-[290px] h-[290px] border-2 border-gray-300 rounded-full flex justify-center items-center">
               <div className="w-[230px] h-[230px] border-2 border-gray-400 rounded-full flex justify-center items-center">
@@ -53,12 +53,12 @@ const Beautiful = () => {
         </div>
         <div className="w-full sm:basis-[70%]">
           <div>
-            <h1 className="text-5xl text-start  font-semibold text-gray-800">
+            <h1 className="text-3xl md:text-5xl text-start font-medium md:font-semibold text-gray-800">
               Beautiful & consistant UI Powered with
               <span className="text-sky-400 ml-4">React</span>.
             </h1>
           </div>
-          <div className="grid grid-cols-2 lg:grid-cols-3 gap-4">
+          <div className="grid grid-cols-2 lg:grid-cols-3 gap-2 md:gap-4 mt-8">
             <div className="flex flex-col items-start gap-6 sm:shadow-lg rounded-lg p-4">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -77,8 +77,10 @@ const Beautiful = () => {
               </svg>
 
               <div className="flex flex-col items-start">
-                <h2 className="text-xl font-semibold my-4">Atomic</h2>
-                <p className="text-gray-500 text-start w-[60%]">
+                <h2 className="text-lg md:text-xl font-semibold my-4 ">
+                  Atomic
+                </h2>
+                <p className="text-gray-500 text-start w-[60%] text-wrapoverflow-hidden">
                   based on Atomic Design.
                 </p>
               </div>
@@ -108,7 +110,6 @@ const Beautiful = () => {
               </div>
             </div>
 
-          
             <div className="flex flex-col items-start gap-6 sm:shadow-lg rounded-lg p-4">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -153,8 +154,8 @@ const Beautiful = () => {
 
               <div className="flex flex-col items-start">
                 <h2 className="text-xl font-semibold my-4">Responsive</h2>
-                <p className="text-gray-500 text-start w-[60%]">
-                 Build fully responsive structures easily.
+                <p className="text-gray-500 ">
+                  Build fully responsive structures easily.
                 </p>
               </div>
             </div>

@@ -1,13 +1,11 @@
-import React from 'react'
-import Header1 from './Header1'
-import MiddleCard from './MiddleCard'
-import KeyFeatures from './KeyFeatures'
-import Beautiful from './Beautiful'
-import ProjectSection from './ProjectSection'
-import ToolComponent from './ToolComponent'
-import Footer from './Footer'
-
-
+import React from "react";
+import Header1 from "./Header1";
+import MiddleCard from "./MiddleCard";
+import KeyFeatures from "./KeyFeatures";
+import Beautiful from "./Beautiful";
+import ProjectSection from "./ProjectSection";
+import ToolComponent from "./ToolComponent";
+import Footer from "./Footer";
 
 const Home = () => {
   return (
@@ -20,7 +18,7 @@ const Home = () => {
       <ToolComponent />
       <Footer />
     </div>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;

@@ -11,8 +11,8 @@ const Navbar = () => {
   };
 
   return (
-    <div>
-      <nav className="flex justify-between items-center w-[100%] mx-auto p-2 shadow-md">
+    <div className="maxW-full shadow-md m-auto ">
+      <nav className="w-[100%] md:w-[100%] flex justify-between items-center mx-auto p-2">
         <div>
           <img
             className="w-44 px-2 lg:mx-10  cursor-pointer"
@@ -25,7 +25,7 @@ const Navbar = () => {
             menuOpen ? "top-[7%] bg-white text-start" : "top-[-100%]"
           } md:w-auto w-full flex items-center  px-5`}
         >
-          <ul className="flex md:flex-row flex-col md:items-center md:gap-[4vw] gap-8 text-md  text-gray-700 ">
+          <ul className="flex md:flex-row flex-col md:items-center md:gap-[4vw] gap-8 text-sm  text-gray-700 ">
             <li>
               <a className="cursor-pointer hover:text-gray-500" href="#">
                 Features

@@ -3,16 +3,16 @@ import { FaArrowRightLong } from "react-icons/fa6";
 
 const ToolComponent = () => {
   return (
-    <div className="maxW-full mt-44">
-      <div className=" w-[100%] sm:[85%] flex flex-col  sm:shadow-md ">
+    <div className="maxW-full my-36 sm:my-48">
+      <div className=" w-[100%] sm:[90%] flex flex-col  sm:shadow-md ">
         <div className="w-[85%]  mx-auto ">
-          <h1 className="text-2xl md:text-5xl font-semibold  text-center">
+          <h1 className=" w-[100%] sm:w-[85%] text-3xl md:text-5xl text-center font-medium md:font-semibold text-gray-800 mx-auto">
             A combinationof tools to design and develop modern application at
             ease.
           </h1>
         </div>
-        <div className="w-[95%] sm:w-[75%] flex flex-col sm:flex-row gap-2 justify-between items-center mx-auto my-28  ">
-          <div className=" h-[330px] flex flex-col items-start gap-8 shadow-lg rounded-lg p-4">
+        <div className="w-[95%] sm:w-[55%] flex flex-col sm:flex-row gap-4 justify-between items-center mx-auto my-28  ">
+          <div className="h-[350px] flex flex-col items-start gap-8 shadow-lg rounded-lg p-4">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="36"
@@ -54,13 +54,14 @@ const ToolComponent = () => {
               </p>
             </div>
             <div className=" group flex cursor-pointer ">
-              
-              <button className="text-sky-600  group-hover:text-sky-300">Design Resource </button>
-              <FaArrowRightLong className='m-auto ml-9 text-sky-600 group-hover:text-sky-300' />
-</div>
+              <button className="text-sky-600  group-hover:text-sky-300">
+                Design Resource{" "}
+              </button>
+              <FaArrowRightLong className="m-auto ml-9 text-sky-600 group-hover:text-sky-300" />
+            </div>
           </div>
 
-          <div className="h-[330px] flex flex-col items-start gap-8 shadow-lg rounded-lg p-4">
+          <div className="h-[350px] flex flex-col items-start gap-8 shadow-lg rounded-lg p-4">
             <svg
               width="36"
               height="36"
@@ -82,9 +83,10 @@ const ToolComponent = () => {
             </div>
 
             <div className="flex cursor-pointer group">
-
-              <button className="text-sky-600 group-hover:text-sky-300">Documentation </button>
-              <FaArrowRightLong className='m-auto ml-9 text-sky-600 group-hover:text-sky-300' />
+              <button className="text-sky-600 group-hover:text-sky-300">
+                Documentation{" "}
+              </button>
+              <FaArrowRightLong className="m-auto ml-9 text-sky-600 group-hover:text-sky-300" />
             </div>
           </div>
         </div>

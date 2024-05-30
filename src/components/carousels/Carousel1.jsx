@@ -1,10 +1,10 @@
 import React from "react";
-import { IoMdAdd } from "react-icons/io";
 import { FiMessageSquare } from "react-icons/fi";
+import { IoMdAdd } from "react-icons/io";
 
-const MeaganCard = () => {
+const Carousel1 = () => {
   return (
-    <div className="w-full h-full flex flex-col mx-auto gap-2 shadow-lg  bg-white  py-8 rounded-lg mt-10 ">
+    <div className="w-[250px] flex flex-col mx-auto gap-2 shadow-lg  bg-white py-6 rounded-lg mt-6 ">
       <img
         src="/assets/avatar.png"
         alt="meafan fisher"
@@ -29,4 +29,4 @@ const MeaganCard = () => {
   );
 };
 
-export default MeaganCard;
+export default Carousel1;
