@@ -2,15 +2,15 @@ import React from "react";
 
 const LoginCard = () => {
   return (
-    <div className="flex flex-col mx-auto gap-10   maxW-full sm:shadow-lg rounded-xl p-2">
-      <div className="mt-10">
+    <div className="maxW-full flex flex-col mx-auto  sm:shadow-lg rounded-xl p-2">
+      <div>
         <h1 className="text-2xl text-center ">Login into your account</h1>
         <p className="text-gray-400 text-center text-[10px] m-auto mt-2">
           Don't have an account yet?
           <span className="text-sky-500 cursor-pointer mx-1">Create New</span>
         </p>
       </div>
-      <div className="flex flex-col gap-6 w-[90%] mx-auto mt-8">
+      <div className="flex flex-col gap-8 w-[90%] mx-auto mt-8">
         <div className="flex ">
           <input
             type="email"
