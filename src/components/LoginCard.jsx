@@ -2,7 +2,7 @@ import React from "react";
 
 const LoginCard = () => {
   return (
-    <div className="maxW-full flex flex-col mx-auto  sm:shadow-lg rounded-xl p-2">
+    <div className="flex flex-col mx-auto  sm:shadow-lg rounded-xl p-2">
       <div>
         <h1 className="text-2xl text-center ">Login into your account</h1>
         <p className="text-gray-400 text-center text-[10px] m-auto mt-2">
