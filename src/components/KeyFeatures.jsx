@@ -3,7 +3,7 @@ import React from "react";
 const KeyFeatures = () => {
   return (
     <div className="maxW-full p-0 sm:p-10 ">
-      <div className="w-[100%] sm:w-[85%] flex flex-col mx-auto justify-start md:shadow-lg px-16 py-36">
+      <div className="w-[100%] sm:w-[90%] flex flex-col mx-auto justify-start md:shadow-md px-16 py-36">
         <div className="flex flex-col items-start gap-6 px-4">
           <button className="bg-black text-white rounded-full p-2 px-4 left-0">
             Key Features

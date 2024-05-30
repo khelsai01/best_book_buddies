@@ -10,7 +10,7 @@ const Footer4 = () => {
     <div className="maxW-full my-24">
       <div className="flex flex-col justify-between items-center">
         <div>
-          <p className="text-gray-800 text-center font-medium">
+          <p className="text-gray-500 text-center font-medium">
             Design & Developed by Proksh Luthra
           </p>
         </div>

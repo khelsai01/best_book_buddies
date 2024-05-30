@@ -2,15 +2,17 @@ import React from "react";
 
 const LoginCard = () => {
   return (
-    <div className="flex flex-col mx-auto  sm:shadow-lg rounded-xl p-2">
+    <div className="w-full flex flex-col mx-auto  shadow-lg rounded-xl p-2">
       <div>
-        <h1 className="text-2xl text-center ">Login into your account</h1>
-        <p className="text-gray-400 text-center text-[10px] m-auto mt-2">
+        <h1 className="text-2xl text-center font-medium my-2">
+          Login into your account
+        </h1>
+        <p className="text-gray-400 text-center text-[10px] m-auto my-3">
           Don't have an account yet?
           <span className="text-sky-500 cursor-pointer mx-1">Create New</span>
         </p>
       </div>
-      <div className="flex flex-col gap-8 w-[90%] mx-auto mt-8">
+      <div className="flex flex-col gap-10 w-[90%] mx-auto my-12">
         <div className="flex ">
           <input
             type="email"
@@ -48,7 +50,7 @@ const LoginCard = () => {
           </svg>
         </div>
       </div>
-      <div className="w-full m-auto ml-4 ">
+      <div className="w-full m-auto ml-4 mt-16 ">
         <button className="text-sky-500 text-center w-[90%] p-2 bg-gray-300 rounded-full font-mono">
           Login
         </button>

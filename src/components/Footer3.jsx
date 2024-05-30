@@ -2,7 +2,7 @@ import React from "react";
 
 const Footer3 = () => {
   return (
-    <div className="max-full hidden sm:block">
+    <div className="max-full md:w-[85%] hidden sm:block m-auto">
       <div className=" flex justify-center  mx-auto gap-6">
         <div className=" flex flex-col text-start gap-4">
           <h1 className="text-lg font-semibold cursor-pointer">Docs</h1>

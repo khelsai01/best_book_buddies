@@ -9,12 +9,12 @@ const ImageCard = () => {
   };
 
   return (
-    <div className="maxW-full flex-col hidden md:block mx-auto  ">
-      <div className="w-full shadow-lg rounded-lg">
+    <div className="w-[95%] flex-col hidden md:block mx-auto  ">
+      <div className="shadow-lg rounded-lg">
         <img
           src="/assets/download.png"
           alt="meafan fisher"
-          className="m-auto object-cover rounded-t-lg"
+          className="m-auto object-cover  rounded-t-lg "
         />
         <div className="flex justify-between p-4 my-3">
           <div className="flex gap-2">
@@ -23,11 +23,13 @@ const ImageCard = () => {
               alt="Meagan Fisher"
               className="w-10 h-10 rounded-full"
             />
-            <h1 className="text-sm font-semibold m-auto">Meagan Fisher</h1>
+            <h1 className="text-sm md:text-[12px] lg:text-sm font-semibold m-auto">
+              Meagan Fisher
+            </h1>
           </div>
           <div onClick={handleLike} className="cursor-pointer mt-3">
             {liked ? (
-              <FaHeart className="text-2xl text-red-600 m-auto" />
+              <FaHeart className="text-xl text-red-600 m-auto" />
             ) : (
               <FaRegHeart className="text-xl text-gray-600 m-auto " />
             )}
@@ -42,9 +44,11 @@ const ImageCard = () => {
               alt=" avatar3"
               className="rounded-full w-12 h-12"
             />
-            <div className="text-start ">
-              <h1 className="font-semibold ">John Doe</h1>
-              <p className="text-sm text-gray-500 ">UI/UX Designer</p>
+            <div className="text-start mt-4 ">
+              <h1 className="lg:font-semibold font-normal ">John Doe</h1>
+              <p className="text-[12px] lg:text-sm text-gray-500 ">
+                UI/UX Designer
+              </p>
             </div>
           </div>
           <div>

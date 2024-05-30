@@ -5,7 +5,7 @@ const Footer1 = () => {
   return (
     <div className="maxW-full my-44">
       <div
-        className="w-[100%] sm:w-[70%] grid grid-cols-2 sm:grid-cols-4  mx-auto
+        className="w-[100%] sm:w-[85%] md:w-[70%] grid grid-cols-2 sm:grid-cols-4  mx-auto
           gap-6"
       >
         <div className="text-center">
