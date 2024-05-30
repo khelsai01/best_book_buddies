@@ -9,8 +9,8 @@ const ImageCard = () => {
   };
 
   return (
-    <div className="flex-col hidden md:block mx-auto gap-2  w-full ">
-      <div className="w-full shadow-xl rounded-lg">
+    <div className="maxW-full flex-col hidden md:block mx-auto  ">
+      <div className="w-full shadow-lg rounded-lg">
         <img
           src="/assets/download.png"
           alt="meafan fisher"
